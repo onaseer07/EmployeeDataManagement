@@ -24,12 +24,12 @@ $("#submit").on("click", function(event){
     event.preventDefault();
     
     database.ref().push({
-        employerName: eName,
-        role: role,
-        sDate: sDate,
-        mWork: mWork,
-        mRate:mRate,
-        tBill: tBill
+        EmployerName: eName,
+        Role: role,
+        StartDate: sDate,
+        MonthsWork: mWork,
+        MonthRate:mRate,
+        TotalBill: tBill
     });
     
     
